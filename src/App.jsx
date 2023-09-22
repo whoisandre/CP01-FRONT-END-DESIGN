@@ -9,7 +9,7 @@ function App() {
   <nav className='nav'>
     <header className='page-header'>
       <a href='#'>
-      <img className='linkedin-svg' src='../public/img/LinkedIn_Logo.svg'/>
+      <img className='linkedin-svg' src='/public/img/LinkedIn_Logo.svg'/>
       </a>
     </header>
   </nav>
