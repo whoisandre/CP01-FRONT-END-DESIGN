@@ -1,0 +1,145 @@
+.page-header {
+    background: white;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.linkedin-svg {
+    width: 135px;
+    height: 65px;
+    padding-bottom: 16px;
+    padding-top: 12px;
+    margin-left: 16px;
+}
+
+.nav {
+    width: 100%;
+    margin: auto;
+}
+
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+    font-size: 32px;
+    display: block;
+    font-weight: 400;
+    font-family: 'Helvetica';
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url(fonts/HelveticaNeue\ Thin.ttf);
+}
+
+.input-container {
+    margin-top: 16px;
+    margin-bottom: 8px;
+    display: block;
+    padding: 16px;
+    position: relative;
+}
+
+.join-form {
+  padding: 24px 32px 32px 32px;
+  width: 416px;
+  height: 541px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.15);
+  border-radius: 8px;
+}
+
+.input {
+    height: 48px;
+    width: 352px;
+    outline: none;
+    background-color: transparent;
+}
+
+.input-input {
+    border-radius: 2px;
+    border: 1px solid rgba(0,0,0,0.6);
+    padding: 20px 12px 4px;
+    width: 100%;
+    font-family: 'Helvetica';
+}
+
+.submit-button {
+    background-color: #0073b1;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 28px;
+    border: 0;
+    vertical-align: middle;
+    padding: 0 32px;
+    width: 352px;
+    height: 56px;
+    color: white;
+    font-size: 20px;
+}
+
+.submit-button:hover {
+    background-color: #004182;
+}
+.or {
+    margin-top: 15px;
+    text-align: center;
+    position: relative;
+}
+
+.google-button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border-radius: 28px;
+    width: 299px;
+    height: 38px;
+    border: 1px;
+    font-weight: 400;
+    margin-top: 32px;
+    border: rgba(0,0,0,0.6) 1px solid;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.footer-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute; 
+    bottom: 0;
+    background-color: white; 
+    width: 100%; 
+    justify-content: center; 
+    padding: 10px 0; 
+  }
+  
+  
+  .footer-list li {
+    list-style: none;
+    margin-right: 20px; 
+  }
+  
+  .footer-list li:last-child {
+    margin-right: 0; 
+  }
+
+.footer-list li a {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 12px;
+}
+
+.footer-list li a:hover {
+    color: #0a66c2;
+}
