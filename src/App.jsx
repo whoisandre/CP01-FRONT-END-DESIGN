@@ -1,9 +1,7 @@
-import { useState } from 'react';
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  
   return ( 
   <>
   <nav className='nav'>
@@ -36,7 +34,7 @@ function App() {
                   <span className='line'>
                   </span>
                   <span className='join-content'>
-                    <span className='or'> ou </span>
+                    <span className='or'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ou </span> <br></br>
                     <button className='google-button'>Continuar com o Google</button>
                     <p> Já faz parte do LinkedIn? <a href='#'>Entre</a></p>
                   </span>

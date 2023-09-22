@@ -91,9 +91,9 @@
     background-color: #004182;
 }
 .or {
-    margin-top: 15px;
     text-align: center;
     position: relative;
+    top: 15px;
 }
 
 .google-button {
